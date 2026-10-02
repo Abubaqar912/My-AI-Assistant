@@ -78,11 +78,14 @@ if user:
 
     status.markdown("NEON is thinking...")
     time.sleep(0.8)
-    
+
     response = client.models.generate_content(
     model="gemini-3.5-flash-lite",
     contents=user
 )
+    status.markdown("NEON found.")
+    time.sleep(0.5)
+    status.empty()
 
     reply = response.text
     st.session_state.messages.append({
