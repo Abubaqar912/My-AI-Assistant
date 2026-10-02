@@ -54,12 +54,16 @@ st.markdown("""
     display: none !important;
 }
 [data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) {
-    justify-content: flex-end !important;
+    margin-left: auto !important;
+    margin-right: 0 !important;
+    width: fit-content !important;
+    max-width: 70% !important;
 }
 
 [data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) [data-testid="stChatMessageContent"] {
     margin-left: auto !important;
-    max-width: 70% !important;
+    margin-right: 0 !important;
+    text-align: right !important;
 }
 </style>
 """, unsafe_allow_html=True)
