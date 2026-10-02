@@ -22,17 +22,22 @@ st.markdown("""
         radial-gradient(circle at 20% 20%, rgba(0,191,255,0.08), transparent 35%),
         radial-gradient(circle at 80% 80%, rgba(0,100,255,0.06), transparent 35%),
         #050914;
-}
 [data-testid="stChatInput"] {
-    border-radius: 24px;
-    border: 1px solid #444;
-    background: #202124;
-    box-shadow: none;
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+[data-testid="stChatInput"] > div {
+    border: none !important;
+    border-radius: 28px !important;
+    background: #202123 !important;
+    box-shadow: none !important;
 }
 
 [data-testid="stChatInput"] textarea {
-    background: transparent;
-    color: #ffffff;
+    background: transparent !important;
+    color: #ffffff !important;
 }
 </style>
 """, unsafe_allow_html=True)
