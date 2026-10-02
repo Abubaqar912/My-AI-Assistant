@@ -49,6 +49,10 @@ st.markdown("""
     background: #176b88 !important;
     color: #f2f2f2 !important;
 }
+[data-testid="stChatMessageAvatarUser"],
+[data-testid="stChatMessageAvatarAssistant"] {
+    display: none !important;
+}
 </style>
 """, unsafe_allow_html=True)
 st.caption("Your personal AI assistant")
