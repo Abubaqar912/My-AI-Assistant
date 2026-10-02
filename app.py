@@ -35,9 +35,11 @@ st.markdown("""
     box-shadow: none !important;
 }
 
-[data-testid="stChatInput"] textarea {
-    background: transparent !important;
-    color: #ffffff !important;
+[data-testid="stChatInput"] button {
+    border-radius: 50% !important;
+    border: 1px solid #00bfff !important;
+    background: #202123 !important;
+    box-shadow: none !important;
 }
 </style>
 """, unsafe_allow_html=True)
