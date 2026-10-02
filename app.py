@@ -53,6 +53,14 @@ st.markdown("""
 [data-testid="stChatMessageAvatarAssistant"] {
     display: none !important;
 }
+[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) {
+    justify-content: flex-end !important;
+}
+
+[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) [data-testid="stChatMessageContent"] {
+    margin-left: auto !important;
+    max-width: 70% !important;
+}
 </style>
 """, unsafe_allow_html=True)
 st.caption("Your personal AI assistant")
