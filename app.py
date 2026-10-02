@@ -37,9 +37,16 @@ st.markdown("""
 
 [data-testid="stChatInput"] button {
     border-radius: 50% !important;
-    border: 1px solid #00bfff !important;
+    border: 1px solid #087ea4 !important;
     background: #202123 !important;
     box-shadow: none !important;
+    color: #f2f2f2 !important;
+}
+
+[data-testid="stChatInput"] button:not(:disabled) {
+    border: none !important;
+    background: #176b88 !important;
+    color: #f2f2f2 !important;
 }
 </style>
 """, unsafe_allow_html=True)
