@@ -71,6 +71,12 @@ if user:
     with st.chat_message("user"):
         st.write(user)
 
+    status = st.empty()
+
+    status.markdown("●")
+    time.sleep(0.4)
+
+    status.markdown("NEON is thinking...")
     response = client.models.generate_content(
     model="gemini-3.5-flash-lite",
     contents=user
