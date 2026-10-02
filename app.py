@@ -64,7 +64,7 @@ st.markdown("""
     margin-left: auto !important;
     margin-right: 0 !important;
     text-align: right !important;
-    background: #2a2b2f !important;
+    background: #176b88 !important;
     border-radius: 18px !important;
     padding: 10px 16px !important;
 }
