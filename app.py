@@ -34,12 +34,10 @@ if user:
 )
 
 reply = response.text
-
-    st.session_state.messages.append({
+st.session_state.messages.append({
         "role": "assistant",
         "content": reply
     })
-
-    with st.chat_message("assistant"):
+with st.chat_message("assistant"):
         st.write(reply)
         
