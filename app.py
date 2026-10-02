@@ -17,6 +17,12 @@ st.markdown("""
     padding: 10px;
     margin-bottom: 12px;
 }
+.stApp {
+    background:
+        radial-gradient(circle at 20% 20%, rgba(0,191,255,0.08), transparent 35%),
+        radial-gradient(circle at 80% 80%, rgba(0,100,255,0.06), transparent 35%),
+        #050914;
+}
 </style>
 """, unsafe_allow_html=True)
 st.caption("Your personal AI assistant")
