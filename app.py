@@ -23,6 +23,17 @@ st.markdown("""
         radial-gradient(circle at 80% 80%, rgba(0,100,255,0.06), transparent 35%),
         #050914;
 }
+[data-testid="stChatInput"] {
+    border-radius: 24px;
+    border: 1px solid #444;
+    background: #202124;
+    box-shadow: none;
+}
+
+[data-testid="stChatInput"] textarea {
+    background: transparent;
+    color: #ffffff;
+}
 </style>
 """, unsafe_allow_html=True)
 st.caption("Your personal AI assistant")
