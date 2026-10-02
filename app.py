@@ -12,7 +12,8 @@ st.title("⚡ NEON BOT")
 st.markdown("""
 <style>
 [data-testid="stChatMessage"] {
-
+    background: transparent !important;
+    border: none !important;
     border-radius: 14px;
     padding: 10px;
     margin-bottom: 12px;
