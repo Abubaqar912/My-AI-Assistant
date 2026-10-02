@@ -83,7 +83,7 @@ if user:
     model="gemini-3.5-flash-lite",
     contents=user
 )
-    status.markdown("NEON found.")
+    status.markdown("NEON found...")
     time.sleep(0.5)
     status.empty()
 
