@@ -7,7 +7,7 @@ st.set_page_config(
     page_icon="🤖"
 )
 
-st.title("🤖 My AI Assistant")
+st.title("⚡ NEON BOT")
 st.caption("Your personal AI assistant")
 
 if "messages" not in st.session_state:
